@@ -1,0 +1,64 @@
+.nav-height{
+    height: 752px;
+}
+.row{
+    margin-bottom: 0%;
+}
+
+.active{
+    color: white;
+    border-left: 3px solid #1de9b6;
+}
+
+.nav-style{
+    padding: 25px;  
+}
+.wheel{
+    transform: rotate(180deg);
+}
+
+.link-style{
+    padding: 15px 0px 15px 25px;
+}
+
+.link-style:hover{
+    color: white;
+    border-left: 3px solid #00e5ff;
+}
+
+.link-style-active{
+    padding: 15px 0px 15px 25px;
+    border-left: 3px solid #00e5ff;
+}
+
+.airplane{
+    transform: rotate(45deg);
+}
+
+.building{
+    fill: #0091ea;
+}
+
+.line{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.card{
+    margin-left: 50px;
+    left: 100px;
+    padding: 25px;
+}
+
+
+.half-half{
+    margin-left: 180px;
+    margin-top: -75px;
+}
+
+@media only screen and (max-width: 768px){
+    [class = "card"]{
+        left: -20px;
+    }
+}
+
