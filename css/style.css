@@ -1,5 +1,8 @@
+body{
+    margin: 0%;
+}
 .nav-height{
-    height: 752px;
+    height: 50rem;
 }
 .row{
     margin-bottom: 0%;
@@ -45,20 +48,18 @@
 }
 
 .card{
-    margin-left: 50px;
-    left: 100px;
     padding: 25px;
+    margin-top: 10%;
+    left: 27%;
 }
 
-
 .half-half{
-    margin-left: 180px;
-    margin-top: -75px;
+    position: absolute;
+    top: -25px;
 }
 
 @media only screen and (max-width: 768px){
     [class = "card"]{
-        left: -20px;
+        left: 0%;
     }
 }
-
